@@ -1,0 +1,46 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1) {
+    color: #44aa70;
+    font-weight: 1000;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.i-icons {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.i-icons>* {
+    transform: scale(0.6);
+}
+
+.i-icons>*:hover {
+    cursor: pointer;
+}
+
+.i-right>img{
+    transform: scale(6);
+    position: relative;
+    top: 7rem;
+    right: 11rem;
+}

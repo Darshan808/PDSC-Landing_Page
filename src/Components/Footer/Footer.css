@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    min-height: 16vh;
+    margin: -0.5rem -3.6rem;
+    margin-top: -7rem;
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    gap: 4rem;
+    color: white;
+    background-color: #44aa70;
+}
+
+.f-icons {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.f-icons>a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .f-content {
+        transform: scale(.5);
+    }
+}

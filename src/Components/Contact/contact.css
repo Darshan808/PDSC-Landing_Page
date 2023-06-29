@@ -1,0 +1,57 @@
+.contact-form {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+    padding-top: 3rem;
+}
+
+.c-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+
+.awesome{
+    align-items: center;
+}
+.awesome>:nth-child(1){
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+}
+.awesome>:nth-child(2){
+    font-size: 3rem;
+    color: #44aa70;
+    font-weight: bolder;
+}
+
+.c-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.c-right .user {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #44aa70;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 4rem !important;
+}

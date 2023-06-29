@@ -1,0 +1,35 @@
+.about {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.a-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    gap: 2rem;
+}
+.a-right {
+    display: flex;
+    flex: 1;
+}
+
+.a-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.a-title>:nth-child(1) {
+    color: #44aa70;
+    font-weight: 1000;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.a-right>img{
+    transform: scale(0.5);
+    position: absolute;
+    right: -12rem;
+    top: -11rem;
+}
